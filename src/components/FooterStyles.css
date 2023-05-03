@@ -1,0 +1,32 @@
+@media (max-width:992px) {
+    .footer-sec {
+        /* background-color: aqua; */
+        margin-top: 3rem;
+    }
+}
+
+.footer-sec .left {
+    animation: slidinLeft 1.5s ease-in;
+}
+
+@keyframes slidinLeft {
+    from {
+        transform: translateX(-300px);
+    }
+    to {
+        transform: translateX(0);
+    }
+}
+
+.footer-sec .right {
+    animation: slidinRight 1.5s ease-in;
+}
+
+@keyframes slidinRight {
+    from {
+        transform: translateX(300px);
+    }
+    to {
+        transform: translateX(0);
+    }
+}

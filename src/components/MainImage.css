@@ -1,0 +1,37 @@
+.bgimage {
+    background: linear-gradient(rgb(0, 0, 0, 0.7), rgb(0, 0, 0, 0.7)), url('../images/image1.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 70vh;
+    width: 100%;
+}
+
+.main h3 {
+    animation: SlideInLeft 1.5s ease-in;
+}
+
+@keyframes SlideInLeft {
+    from {
+        transform: translateX(-400px);
+    }
+    to {
+        transform: translateX(0);
+    }
+}
+
+.main p {
+    animation: SlideInRight 1.5s ease-out;
+}
+
+@keyframes SlideInRight {
+    from {
+        transform: translateX(400px);
+    }
+    to {
+        transform: translateX(0);
+    }
+}
+
+.home-button:hover {
+    transform: scale(1.5);
+}

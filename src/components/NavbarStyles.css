@@ -1,0 +1,29 @@
+/* navbar styles*/
+
+nav .navbar-brand {
+    font-size: 2em;
+}
+
+
+/* .close {
+    display: none;
+    color: white;
+}*/
+
+.nav-link:hover {
+    background-color: gray;
+}
+
+@media (max-width: 992px) {
+    .navbar-nav {
+        height: 50vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 5em;
+    }
+    .navbar-nav,
+    .nav-link {
+        font-size: 1.5rem;
+    }
+}

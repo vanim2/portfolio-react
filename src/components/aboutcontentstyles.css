@@ -1,0 +1,26 @@
+.about-sec {
+    height: 70vh;
+}
+
+.img2 {
+    /* margin-left: -150px;
+    margin-bottom: -150px; */
+    margin: 0 0 -150px -150px;
+}
+
+.about-right {
+    /* background-color: antiquewhite!important; */
+    animation: zoom-in-zoom-out 1s ease;
+}
+
+@keyframes zoom-in-zoom-out {
+    0% {
+        transform: scale(1, 1);
+    }
+    50% {
+        transform: scale(1.3, 1.3);
+    }
+    100% {
+        transform: scale(1, 1);
+    }
+}
